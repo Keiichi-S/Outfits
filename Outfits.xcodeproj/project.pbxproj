@@ -15,6 +15,16 @@
 		8A1307892595CBB600313CF7 /* Outfits.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A1307872595CBB600313CF7 /* Outfits.xcdatamodeld */; };
 		8A1307942595CBB700313CF7 /* OutfitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1307932595CBB700313CF7 /* OutfitsTests.swift */; };
 		8A13079F2595CBB700313CF7 /* OutfitsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A13079E2595CBB700313CF7 /* OutfitsUITests.swift */; };
+		8A1307B42595CC2A00313CF7 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1307B32595CC2A00313CF7 /* ImagePickerView.swift */; };
+		8A1307D7259634F500313CF7 /* ClothingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1307D6259634F500313CF7 /* ClothingRow.swift */; };
+		8A1307E12596382100313CF7 /* SaveImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1307E02596382100313CF7 /* SaveImage.swift */; };
+		8A1307F625975D9F00313CF7 /* ClothingHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1307F525975D9F00313CF7 /* ClothingHome.swift */; };
+		8A1308002597645900313CF7 /* AddCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1307FF2597645900313CF7 /* AddCategory.swift */; };
+		8A99BE0C25A1A19A00D28F38 /* TargetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A99BE0B25A1A19A00D28F38 /* TargetImage.swift */; };
+		8A99BE1125A1B02500D28F38 /* FittingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A99BE1025A1B02500D28F38 /* FittingButton.swift */; };
+		8A99BE1925A1B49F00D28F38 /* FittingRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A99BE1825A1B49F00D28F38 /* FittingRoom.swift */; };
+		8AE7007025A0A412006498B7 /* ClothingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7006F25A0A412006498B7 /* ClothingItem.swift */; };
+		8AE7007525A0C92F006498B7 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7007425A0C92F006498B7 /* View+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +47,7 @@
 /* Begin PBXFileReference section */
 		8A1307792595CBB000313CF7 /* Outfits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Outfits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A13077C2595CBB000313CF7 /* OutfitsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitsApp.swift; sourceTree = "<group>"; };
-		8A13077E2595CBB000313CF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A13077E2595CBB000313CF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		8A1307802595CBB600313CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A1307832595CBB600313CF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A1307852595CBB600313CF7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -49,6 +59,16 @@
 		8A13079A2595CBB700313CF7 /* OutfitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutfitsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A13079E2595CBB700313CF7 /* OutfitsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitsUITests.swift; sourceTree = "<group>"; };
 		8A1307A02595CBB700313CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1307B32595CC2A00313CF7 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		8A1307D6259634F500313CF7 /* ClothingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingRow.swift; sourceTree = "<group>"; };
+		8A1307E02596382100313CF7 /* SaveImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveImage.swift; sourceTree = "<group>"; };
+		8A1307F525975D9F00313CF7 /* ClothingHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingHome.swift; sourceTree = "<group>"; };
+		8A1307FF2597645900313CF7 /* AddCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategory.swift; sourceTree = "<group>"; };
+		8A99BE0B25A1A19A00D28F38 /* TargetImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetImage.swift; sourceTree = "<group>"; };
+		8A99BE1025A1B02500D28F38 /* FittingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FittingButton.swift; sourceTree = "<group>"; };
+		8A99BE1825A1B49F00D28F38 /* FittingRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FittingRoom.swift; sourceTree = "<group>"; };
+		8AE7006F25A0A412006498B7 /* ClothingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingItem.swift; sourceTree = "<group>"; };
+		8AE7007425A0C92F006498B7 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +119,8 @@
 		8A13077B2595CBB000313CF7 /* Outfits */ = {
 			isa = PBXGroup;
 			children = (
+				8A1307B22595CC0C00313CF7 /* View */,
 				8A13077C2595CBB000313CF7 /* OutfitsApp.swift */,
-				8A13077E2595CBB000313CF7 /* ContentView.swift */,
 				8A1307802595CBB600313CF7 /* Assets.xcassets */,
 				8A1307852595CBB600313CF7 /* Persistence.swift */,
 				8A13078A2595CBB600313CF7 /* Info.plist */,
@@ -134,6 +154,48 @@
 				8A1307A02595CBB700313CF7 /* Info.plist */,
 			);
 			path = OutfitsUITests;
+			sourceTree = "<group>";
+		};
+		8A1307B22595CC0C00313CF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A13080C259771E400313CF7 /* Fitting */,
+				8A1307D5259634BA00313CF7 /* Closet */,
+				8A1307C02595CC4500313CF7 /* ImagePick */,
+				8A13077E2595CBB000313CF7 /* ContentView.swift */,
+				8AE7007425A0C92F006498B7 /* View+Extension.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1307C02595CC4500313CF7 /* ImagePick */ = {
+			isa = PBXGroup;
+			children = (
+				8A1307B32595CC2A00313CF7 /* ImagePickerView.swift */,
+			);
+			path = ImagePick;
+			sourceTree = "<group>";
+		};
+		8A1307D5259634BA00313CF7 /* Closet */ = {
+			isa = PBXGroup;
+			children = (
+				8A1307D6259634F500313CF7 /* ClothingRow.swift */,
+				8A1307F525975D9F00313CF7 /* ClothingHome.swift */,
+				8A1307FF2597645900313CF7 /* AddCategory.swift */,
+				8AE7006F25A0A412006498B7 /* ClothingItem.swift */,
+				8A1307E02596382100313CF7 /* SaveImage.swift */,
+				8A99BE1025A1B02500D28F38 /* FittingButton.swift */,
+			);
+			path = Closet;
+			sourceTree = "<group>";
+		};
+		8A13080C259771E400313CF7 /* Fitting */ = {
+			isa = PBXGroup;
+			children = (
+				8A99BE0B25A1A19A00D28F38 /* TargetImage.swift */,
+				8A99BE1825A1B49F00D28F38 /* FittingRoom.swift */,
+			);
+			path = Fitting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +327,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE7007025A0A412006498B7 /* ClothingItem.swift in Sources */,
+				8A1308002597645900313CF7 /* AddCategory.swift in Sources */,
+				8AE7007525A0C92F006498B7 /* View+Extension.swift in Sources */,
+				8A99BE0C25A1A19A00D28F38 /* TargetImage.swift in Sources */,
 				8A1307862595CBB600313CF7 /* Persistence.swift in Sources */,
+				8A99BE1925A1B49F00D28F38 /* FittingRoom.swift in Sources */,
+				8A99BE1125A1B02500D28F38 /* FittingButton.swift in Sources */,
+				8A1307F625975D9F00313CF7 /* ClothingHome.swift in Sources */,
 				8A13077F2595CBB000313CF7 /* ContentView.swift in Sources */,
 				8A1307892595CBB600313CF7 /* Outfits.xcdatamodeld in Sources */,
+				8A1307D7259634F500313CF7 /* ClothingRow.swift in Sources */,
+				8A1307E12596382100313CF7 /* SaveImage.swift in Sources */,
 				8A13077D2595CBB000313CF7 /* OutfitsApp.swift in Sources */,
+				8A1307B42595CC2A00313CF7 /* ImagePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +499,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Outfits/Preview Content\"";
+				DEVELOPMENT_TEAM = 29H7YQ53SX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Outfits/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -448,6 +521,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Outfits/Preview Content\"";
+				DEVELOPMENT_TEAM = 29H7YQ53SX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Outfits/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
