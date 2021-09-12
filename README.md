@@ -23,5 +23,5 @@ Fittingでは、Closetで選択した洋服と合わせることができます�
 - Fittingボタンを押すと、Closetで選択した洋服と共に今選択した洋服の画像が表示されます
 - ドラッグやピンチイン、ピンチアウトすることで画像の移動、拡大縮小ができます
 
-### アプリケーション内の画像
+## アプリケーション内の画像
 <img src="https://user-images.githubusercontent.com/45893170/132973992-74009e41-d598-4424-bf68-543612b41b73.PNG" width="250px">　<img src="https://user-images.githubusercontent.com/45893170/132974020-4ee447dc-3c17-4874-a234-5d0a65c0c863.PNG" width="250px">　<img src="https://user-images.githubusercontent.com/45893170/132974038-e29c0c0b-9281-4ee9-8500-306e8926a11d.PNG" width="250px">
